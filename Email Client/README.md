@@ -2,16 +2,16 @@
 
 This project implements a simple email client that interacts with a standards-compliant IMAP server to download and parse emails. The program supports multiple commands such as retrieving emails, parsing headers, handling MIME (Multimedia Internet Mail Extensions) messages, and listing email subjects.
 
-## Features:
+## Features
 - **Retrieve**: Downloads the latest email or a specified email from the server.
 - **Parse**: Displays email headers.
 - **MIME**: Decodes and displays the text/plain version of MIME-encoded emails.
 - **List**: Lists all email subject lines from the specified folder.
 
-## Error Handling:
+## Error Handling
 The program handles various errors, such as incorrect login credentials, invalid folder names, missing emails, or failed commands, and prints appropriate messages.
 
-## Technologies Used:
+## Technologies Used
 - Programming Language: C
 - IMAP Protocol: RFC 3501
 - MIME Decoding: RFC 2045, RFC 2046
