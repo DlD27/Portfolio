@@ -41,8 +41,8 @@ This project aims to modify and enhance the Langwarrin Community Centre website 
     - Housekeeping and Coordination
 ### 6. Design Stage
     - Created user stories, a domain model, and wireframes to align the development with client needs.
-    /![User Story](image/UserStory.png)
-    /![Domain Model](image/DomainModel.png)
-    /![Wireframe & Low Fidelity Prototype - Page 1](image/WireFrame1.png)
-    /![Wireframe & Low Fidelity Prototype - Page 2](image/WireFrame2.png)
-    /![Wireframe & Low Fidelity Prototype - Page 3](image/WireFrame3.png)
+/![User Story](image/UserStory.png)
+/![Domain Model](image/DomainModel.png)
+/![Wireframe & Low Fidelity Prototype - Page 1](image/WireFrame1.png)
+/![Wireframe & Low Fidelity Prototype - Page 2](image/WireFrame2.png)
+/![Wireframe & Low Fidelity Prototype - Page 3](image/WireFrame3.png)
