@@ -1,5 +1,4 @@
-# IT-Project
-## Website for Langwarrin Community Centre
+# Website for Langwarrin Community Centre
 
 This project aims to modify and enhance the Langwarrin Community Centre website to provide a more modern and user-friendly experience. The new website will retain all existing information and features while adding the following enhancements and improvements:
 1. Content Preservation: All information currently available on the existing website will be retained to ensure users continue to access the content they need.
