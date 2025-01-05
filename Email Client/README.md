@@ -16,7 +16,7 @@ The program handles various errors, such as incorrect login credentials, invalid
 - IMAP Protocol: RFC 3501
 - MIME Decoding: RFC 2045, RFC 2046
 
-## My Contribution
+## My Contributions
 I was responsible for developing the Input Command, Retrieve, and MIME functionalities in the project. This included:
 ### 1. Logging In
     - Establishing a connection with the IMAP server and handling the login process using the provided credentials.
