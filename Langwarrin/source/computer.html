@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer - Langwarrin Community Centre</title>
+    <!--Fonts from Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Font Awesome for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Stylesheets-->
+    <link rel="stylesheet" href="style/headerAndFooter.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/scroll.css">
+    <!--JavaScript-->
+    <script src="/script/getComputer.js"></script>
+    <script src="/script/footer.js"></script>
+    <script src="/script/hamburgerMenu.js"></script>
+    
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <a href="homePage.html"><img src="../image/Logo.png" alt="Langwarrin Community Centre Logo" class="logo"></a>
+            
+            <div class="right-content">
+                <button class="menu-toggle">☰</button>
+                <nav>
+                    <ul class="headerUl">
+                        <li><a href="homePage.html">Home</a></li>
+                        <li><a href="programs.html">Programs</a>
+                            <div class="submenu">
+                                <div class="submenu-back-button">Back</div>
+                                <a href="computer.html">Computer</a>
+                                <a href="literacy.html">Literacy/Further education</a>
+                                <a href="craft.html">Craft/Hobby/Fun</a>
+                                <a href="exercise.html">Exercise/Wellbeing</a>
+                            </div>
+                        </li>
+                        <li><a href="children.html">Children & Youth</a>
+                            <div class="submenu">
+                                <div class="submenu-back-button">Back</div>
+                                <a href="children.html">Information of Parent</a>
+                                <a href="age-group.html">Age groups</a>
+                                <a href="chid-act.html">Children Activities</a>
+                            </div>
+                        </li>
+                        <li><a href="community.html">Community</a>
+                            <div class="submenu">
+                                <div class="submenu-back-button">Back</div>
+                                <a href="event.html">Event</a>
+                                <a href="groups.html">Groups</a>
+                                <a href="room-hire.html">Services & Room hire</a>
+                            </div>
+                        </li>
+                        <li class="about-us"><a href="aboutUs.html">About Us</a>
+                            <div class="submenu">
+                                <div class="submenu-back-button">Back</div>
+                                <a href="formsAndInformation.html">Forms and information</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer-text">Lifelong Learning and Community Participation</div>
+            </div>
+        </div>
+    </header>
+        
+    <div class="main-body">
+        <div class="section-ttile">
+            <div class="Title goback-title">
+                <a href="#" class="back-link" onclick="window.history.back(); return false;">
+                    <h1>&larr;</h1>
+                </a>
+                <h1>Computer</h1>
+            </div>
+        </div>
+        <div class="Programs-list">
+            <div class="image-list" id="computerList">
+                <!--use js to create img, h3 and p element list-->
+            </div>            
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="total-footer">
+        <div class="container">
+            <div class="form-container">
+                <h1>How can we help?</h1>
+                <form id="feedbackForm" action="javascript:void(0);" method="POST">
+                    <div class="form-row">
+                        <div class="half-width">
+                            <label for="firstName">First Name <span>(required)</span></label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="half-width">
+                            <label for="lastName">Last Name <span>(required)</span></label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="half-width">
+                            <label for="topic">Topic <span>(required)</span></label>
+                            <input type="text" id="topic" name="topic" required>
+                        </div>
+                        <div class="half-width">
+                            <label for="email">Email <span>(required)</span></label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    <div class="form-row-comments">
+                        <label for="comments">Comments <span>(required)</span></label>
+                        <textarea id="comments" name="comments" rows="5" placeholder="Please let us know what's on your mind." required></textarea>
+                    </div>
+                    <div class="submit-button">
+                        <button type="submit" class="submit-button">Submit</button>
+                    </div>
+                </form>
+            </div>
+        
+            <div class="sidebar">
+                <div class="left-sidebar">
+                    <div class="navigation">
+                        <h2>Navigation</h2>
+                        <a class="footer-links" href="programs.html">Programs</a>
+                        <a class="footer-links" href="children.html">Children & Youth</a>
+                        <a class="footer-links" href="community.html">Community</a>
+                        <a class="footer-links" href="aboutUs.html">About Us</a>
+                    </div>
+        
+                    <div class="operating-time">
+                        <h2>Operating Time</h2>
+                        <p class="operating-time">Monday to Friday</p>
+                        <p class="operating-time">9.00am - 4.30pm</p>
+                    </div>
+        
+                    <div class="information">
+                        <h2>Information</h2>
+                        <p>2 Lang Rd, Langwarrin VIC 3910</p>
+                        <p>(03) 9789 7653</p>
+                        <p>reception@langwarrincc.org.au</p>
+                    </div>
+                </div>
+        
+                <div class="special-thanks">
+                    <h2>Special Thanks</h2>
+                    <img src="../image/DepartmentOfEducation.png" alt="Department of Education" class="img-department">
+                    <img src="../image/kisspng-government-of-australia-department-of-home-affairs-papua-new-guinea-5ad5cc545e9d25.3083300015239609163876 1.png" alt="Australian Government" class="img-government">
+                    <img src="../image/0d70a31e-0312-4717-8ad7-93ba099fb5e0_resized (1).png" alt="Victoria State Government" class="img-victoria-state">
+                    <img src="../image/Group.svg" alt="Victoria State Government" class="img-victoria-state-blue">
+                    <img src="../image/FrankstonCity.png" alt="Frankston City" class="img-frankston-city">
+                    <img src="../image/australian-government-stacked-black_168791ec-96ad-3bcc-817b-27e71beb4522 (1).png" alt="Australian Government" class="img-australian-government">
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="social-media">
+                <a href="https://www.facebook.com/LangwarrinCommunityCentreInc?ref=embed_page" target="_blank" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>    
+            <p>Copyright © 2014
+                All Rights Reserved.
+                Langwarrin Community Centre</p>
+        </div>
+        
+     </div>
+
+</body>

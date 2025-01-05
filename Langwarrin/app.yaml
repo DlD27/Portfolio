@@ -1,0 +1,28 @@
+runtime: nodejs18
+env: standard
+entrypoint: node server.js
+
+handlers:
+  # Serve static files like CSS, JS, and images
+  - url: /style
+    static_dir: source/style
+
+  - url: /script
+    static_dir: source/script
+
+  - url: /image
+    static_dir: image
+
+  # Serve other HTML files
+  - url: /(.+\.html)
+    static_files: source/\1
+    upload: source/(.+\.html)
+
+  # Serve the home page by default
+  - url: /
+    static_files: source/homePage.html
+    upload: source/homePage.html
+
+  # Route API requests to your backend
+  - url: /api/.*
+    script: auto
