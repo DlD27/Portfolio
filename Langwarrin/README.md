@@ -19,8 +19,9 @@ This project aims to modify and enhance the Langwarrin Community Centre website 
 - Testing: Postman
 
 ## Accessing the Website
-1. Open your web browser and navigate to https://www.langwarrincc.org.au/.
+1. Open your web browser and navigate to https://langwarrincc.ts.r.appspot.com/ 
 2. You will be directed to the homepage, where you can see an overview of the community center’s offerings.
+3. Original Version - Website: https://www.langwarrincc.org.au/
 
 ## My Contributions
 ### 1. Backend Development
